@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    margin:0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #eee;
+}
+ul{
+    list-style:none;
+    font-size: 10px;
+    color:#659d89; 
+    margin-left: 60px; 
+}
+nav ul li{
+    display: inline;   
+}
+main h1{
+    font-size: 40px;
+    color: #659d89;
+    margin-left: 100px;
+}
+main p:nth-child(3){
+    font-size: 30px; 
+    margin-left: 100px; 
+}
+div ol li{
+    list-style:none;
+    text-align: right;
+    margin-right: 100px;
+}
+main p:last-of-type{
+    font-size: 10px;
+    margin-left: 120px;
+    color:#333;
+}
+div:last-of-type {
+    border: #ccc solid 1px;
+    margin-top: 100px;
+}
+article section h2{
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: 30px;
+    color:#333;
+}
+article section p{
+    margin-left: 120px;
+    font-size:10px;
+    color:#333;
+}
+article section img{
+    margin-left: 120px;
+    margin-top: 70px;
+}
+article div{
+    border: #ccc solid 1px;
+    margin-top: 60px;
+}
+section h3{
+       font-size: 20px;
+       margin-left: 50px;
+}
+article section:nth-child(2n+3) p{
+    padding-left: 320px;
+    font-size: 7px;
+    color:#666;
+}
+article section:nth-child(2n+3) h3:last-of-type{
+    padding-left: 260px;
+    font-size: 15px;
+}
+article section:nth-child(2n+3) p:last-of-type{
+    font-size:7px;
+    padding-left: 340px;
+    color:#666;
+}
+article section:nth-child(2n+4) img{
+    padding-left:380px ;
+}
+article section:nth-child(2n+4) p{
+    text-align:right;
+    padding-right: 500px;
+    font-size: 7px;
+    color:#666;
+}
+article section:nth-child(2n+4) h4{
+    text-align:right;
+    padding-right: 380px;
+}
+article section:nth-child(4) p:last-of-type{
+    font-size:7px;
+    text-align:right;
+    padding-right: 520px;
+    color:#666;
+}
+footer p:first-child{
+    margin-top: 100px;
+    margin-left: 540px;
+    font-size: 20px;
+    color:#666;
+}
+footer p:last-child{
+    margin-top: 100px;
+    margin-left: 640px;
+    font-size:7px;
+    color:#666;
+}
+
+
